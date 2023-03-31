@@ -1,0 +1,20 @@
+.container{
+    width: 50vw;
+    height: auto;
+    padding: 12px 20px;
+    border: 2px solid gainsboro;
+    margin: 0px auto;
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+
+}
+
+mat-form-field{
+    width: 40vw;
+}
+
+button{
+    flex: 1;
+}

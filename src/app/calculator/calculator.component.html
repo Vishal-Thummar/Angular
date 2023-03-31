@@ -1,0 +1,38 @@
+<h1 *ngIf="result !== null">Result: {{ result }}</h1> 
+<div class="container">
+
+
+<p>
+    <mat-label>Number 1 : </mat-label>
+    <mat-form-field appearance="outline">
+        <input matInput type="number" [(ngModel)]="num1" placeholder="Number 1">
+  </mat-form-field>
+
+</p>
+    <p>
+        <mat-label> Operator: </mat-label>
+        <mat-form-field appearance="outline">
+            <mat-select [(ngModel)]="operator" placeholder="Operator">
+            <mat-option value="+">+</mat-option>
+            <mat-option value="-">-</mat-option>
+            <mat-option value="*">*</mat-option>
+            <mat-option value="/">/</mat-option>
+          </mat-select>
+      </mat-form-field>
+    </p>
+  
+<p>
+    <mat-label>Number 2 : </mat-label>
+    <mat-form-field appearance="outline">
+        <input matInput type="number" [(ngModel)]="num2" placeholder="Number 2">
+    </mat-form-field >
+</p>
+<p>
+
+    <button mat-raised-button color="primary" (click)="calculate()">Calculate</button>
+</p>
+
+
+
+</div>
+

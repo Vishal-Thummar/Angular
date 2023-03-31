@@ -1,0 +1,26 @@
+.container{
+    width: 40vw;
+    margin: 0px auto;
+    margin-top: 32px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid rgb(175, 135, 87);
+    border-radius: 16px;
+}
+
+mat-label{
+    font-size: 26px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-top: 16px;
+    color: darkcyan;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
